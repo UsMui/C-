@@ -35,8 +35,10 @@ namespace ConsoleApp1.session2
         }
         public PhanSo NgichDao()
         {
-            this.tuso = mauso;
-            this.mauso = tuso;
+        
+       
+            tuso = mauso;
+            mauso = tuso;
             return this;
             
         }
