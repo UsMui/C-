@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.session3
 {
-    internal interface IHuman
+    public interface IHuman
     {
+        void eat();
     }
 }

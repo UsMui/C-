@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.session3
 {
-    internal class AbstractStudent
+    public abstract class AbstractStudent
+
     {
+        public abstract void Learn();
     }
 }

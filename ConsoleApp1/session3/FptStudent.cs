@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.session3
 {
-    internal class FptStudent
+    public class FptStudent : AbstractStudent, IHuman, IStudent
     {
+        public FptStudent() {
+        }
+
+        public void eat()
+        {
+            
+        }
+
+        public override void Learn()
+        {
+          
+        }
+
+        public void PlayGame()
+        {
+          
+        }
     }
 }

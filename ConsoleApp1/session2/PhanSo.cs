@@ -33,14 +33,13 @@ namespace ConsoleApp1.session2
         {
             Console.WriteLine("Phân số :" + this.tuso + "/" + this.mauso);
         }
-        public PhanSo NgichDao()
+        public PhanSo NgichDao(PhanSo a)
         {
-        
-       
-            tuso = mauso;
-            mauso = tuso;
-            return this;
-            
+            PhanSo b = new PhanSo();
+            b.tuso = a.mauso;
+            b.mauso = a.tuso;
+            return b;
+
         }
         public int ucln(int a, int b)
         {

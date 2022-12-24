@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.session3
 {
-    internal interface IStudent
+    public interface IStudent
     {
+        public void PlayGame();
     }
 }
